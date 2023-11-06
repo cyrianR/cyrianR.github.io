@@ -1,0 +1,35 @@
+
+.career-development-content {
+  font-family: inherit;
+  margin-top: 8rem;
+  font-size: 1.5rem;
+  width: 70%;
+  display: inline-block;
+  max-width: 60rem;
+}
+
+.resume-download {
+  margin-top: 3rem;
+}
+
+.career-development-content a {
+  text-decoration: none;
+  color: var(--network-icons);
+  margin-right: 2rem;
+}
+
+.career-development-content a:last-of-type {
+  margin-right: 0rem;
+}
+
+.career-development-content a:hover {
+  text-decoration: underline;
+}
+
+.linkedin-career-dev {
+  margin-top: 7rem;
+}
+
+
+
+

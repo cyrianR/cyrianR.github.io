@@ -8,6 +8,7 @@
   --welcome-text: #DAA520;
   --page-footer-background: #DCDCDC;
   --page-footer-text: #708090;
+  --page-titles: #778899;
 }
 
 * {
@@ -31,6 +32,15 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  font-family: inherit;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 0;
+  color: var(--page-titles);
+  font-family: DejaVu Sans Mono, monospace;
+  margin: 0;
 }
 
 /* links inside the nav-container */
@@ -120,8 +130,13 @@ body {
 /* main body of the page */
 .page-body {
   text-align: center;
-  margin-top: 7rem;
+  margin-top: 6rem;
   flex: 1;
+  font-family: inherit;
+}
+
+section[id="intro"] {
+  margin-top: 8rem;
 }
 
 .profile {
